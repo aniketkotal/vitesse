@@ -1,12 +1,12 @@
 <script setup lang="ts">
-const router = useRouter()
-const route = useRoute('/hi/[name]')
-const user = useUserStore()
-const { t } = useI18n()
+const router = useRouter();
+const route = useRoute("/hi/[name]");
+const user = useUserStore();
+const { t } = useI18n();
 
 watchEffect(() => {
-  user.setNewName(route.params.name)
-})
+  user.setNewName(route.params.name);
+});
 </script>
 
 <template>

@@ -27,6 +27,7 @@ export default antfu({
   rules: {
     "style/brace-style": ["error", "1tbs", { allowSingleLine: true }],
     "unused-imports/no-unused-vars": "off",
+    "style/max-statements-per-line": "off",
     "no-console": "off",
     "curly": ["error", "multi-line"],
     "jsdoc/require-returns-description": "off",
