@@ -1,16 +1,13 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.8.0",
+  "packageManager": "pnpm",
   "scripts": {
     "build": "vite-ssg build",
     "dev": "vite --port 3333 --open",
     "lint": "eslint .",
     "preview": "vite preview",
     "preview-https": "serve dist",
-    "test": "vitest",
-    "test:e2e": "cypress open",
-    "test:unit": "vitest",
     "typecheck": "vue-tsc --noEmit",
     "up": "taze major -I",
     "postinstall": "npx simple-git-hooks",
@@ -41,10 +38,7 @@
     "@vue/test-utils": "^2.4.6",
     "critters": "^0.0.24",
     "cross-env": "^7.0.3",
-    "cypress": "^13.13.3",
-    "cypress-vite": "^1.5.0",
     "eslint": "^9.9.1",
-    "eslint-plugin-cypress": "^3.5.0",
     "eslint-plugin-format": "^0.1.2",
     "https-localhost": "^4.7.1",
     "lint-staged": "^15.2.9",
@@ -70,7 +64,6 @@
     "vite-plugin-webfont-dl": "^3.9.5",
     "vite-ssg": "^0.23.8",
     "vite-ssg-sitemap": "^0.8.1",
-    "vitest": "^2.0.5",
     "vue-tsc": "^2.0.29"
   },
   "resolutions": {
